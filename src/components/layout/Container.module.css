@@ -1,0 +1,13 @@
+.cartList {
+  background-color: white;
+  width: 500px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
