@@ -23,7 +23,7 @@ function Product() {
 
   return (
     <div>
-      <Container>
+      <Container layout="bottomLine">
         {products &&
           products.map((product) => (
             <ProductCard

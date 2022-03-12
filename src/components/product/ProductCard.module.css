@@ -1,0 +1,36 @@
+.productCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  column-gap: 15px;
+  margin: 0px 0px 10px 15px;
+}
+
+.productCard .image img{
+    width: 150px;
+    border: 1px solid rgba(199, 195, 195, 0.589);    
+}
+
+.productCard .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info h3 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.price span{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.price p{
+    font-weight: bold;
+    margin-top: 3px;
+}

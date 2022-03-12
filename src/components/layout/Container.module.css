@@ -1,13 +1,14 @@
 .cartList {
   background-color: white;
-  width: 500px;
-  border-radius: 15px;
-  padding: 10px;
-  margin: auto auto;
+  width: 60%;
+  height: 80%;
+  max-width: 500px;
+  border-radius: 15px;;
+  margin:auto;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
+  padding-bottom  : 10px;
 }
 
-.column {
-  flex-direction: column;
-  justify-content: flex-start;
+.bottomLine {
+  border-bottom: 1px solid lightgray;
 }
