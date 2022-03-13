@@ -1,0 +1,9 @@
+.freeShipping {
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(170, 214, 170);
+  color: rgb(36, 119, 36);
+  width: 80%;
+  margin: auto;
+  padding: 3px;
+}

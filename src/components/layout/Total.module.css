@@ -1,5 +1,10 @@
 .total {
-    margin: 10px 20px;
-    display: flex;
-    justify-content: space-between;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomLine {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
 }

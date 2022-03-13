@@ -9,7 +9,7 @@ function ProductCard({ id, name, imgUrl, price, sellingPrice }) {
     style: "currency",
     currency: "BRL",
   });
-  const discount = Math.round((price / sellingPrice - 1) * 100)
+  const discount = Math.round((price / sellingPrice - 1) * 100);
 
   return (
     <div key={id} className={styles.productCard}>
@@ -22,7 +22,7 @@ function ProductCard({ id, name, imgUrl, price, sellingPrice }) {
           <span> {maskedPrice}</span>
           <div className={styles.discount}>
             <p>{maskedSellingPrice}</p>
-            <p className={styles.off}> -{discount}% de desconto</p>
+            <p className={styles.off}> {discount}% de desconto</p>
           </div>
         </div>
       </div>
