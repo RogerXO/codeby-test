@@ -9,8 +9,6 @@ function Total() {
   const [total, setTotal] = useState(0);
   const [prices, setPrices] = useState([]);
 
-  const getTotal = bringTotal() / 100;
-
   const totalValue = total.toLocaleString("pt-br", {
     style: "currency",
     currency: "BRL",
@@ -24,14 +22,14 @@ function Total() {
       },
     })
       .then((resp) => resp.json())
-      .then((data) => {
-        setProducts(data.items);
-        setTotal(getTotal);
-      })
+      .then((data) => setProducts(data.items))
       .catch((err) => console.log(err));
   }, []);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const getTotal = bringTotal() / 100;
+    setTotal(getTotal);
+  }, [products]);
 
   function bringTotal() {
     return products.reduce(function (prev, cur) {
