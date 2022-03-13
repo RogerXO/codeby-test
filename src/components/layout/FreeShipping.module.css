@@ -1,3 +1,7 @@
+.container {
+  margin: 20px 0;
+}
+
 .freeShipping {
   text-align: center;
   border-radius: 20px;
