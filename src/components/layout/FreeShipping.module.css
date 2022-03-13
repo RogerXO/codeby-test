@@ -10,4 +10,5 @@
   width: 80%;
   margin: auto;
   padding: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
 }

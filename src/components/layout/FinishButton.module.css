@@ -1,5 +1,5 @@
 .container {
-    margin: 25px 0px 10px;
+  margin: 25px 0px 10px;
 }
 
 .btn {
@@ -14,8 +14,9 @@
   padding: 4% 25%;
   font-size: 1.5em;
   font-weight: bolder;
+  box-shadow: 2px 2px 5px rgba(51, 106, 224, 0.425);
 }
 
-.btn:hover{
-    background-color: blue;
+.btn:hover {
+  background-color: blue;
 }

@@ -7,7 +7,6 @@ import FreeShipping from "./FreeShipping";
 function Total() {
   const [products, setProducts] = useState([]);
   const [total, setTotal] = useState(0);
-  const [prices, setPrices] = useState([]);
 
   const totalValue = total.toLocaleString("pt-br", {
     style: "currency",
